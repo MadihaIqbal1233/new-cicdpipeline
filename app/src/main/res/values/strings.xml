@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PipeLine Application</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_to_continue">Sign In to Continue</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="forgot_your_password">Forget your password?</string>
+    <string name="sign_in_with">Sign in with</string>
+</resources>

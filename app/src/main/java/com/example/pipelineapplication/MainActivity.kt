@@ -152,8 +152,8 @@ fun LoginScreen() {
             contentDescription = null,
             modifier = Modifier
                 .align(Alignment.CenterHorizontally)
-                .background(Color.LightGray, RoundedCornerShape(50))
-                .padding(16.dp)
+                .background(Color.White, RoundedCornerShape(20))
+                .padding(6.dp)
         )
 
         Spacer(modifier = Modifier.height(12.dp))

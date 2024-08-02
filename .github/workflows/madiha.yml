@@ -15,6 +15,13 @@ jobs:
       with:
         distribution: 'adopt' # Required input
         java-version: '11'
+        java-package: 'jdk'
+        architecture: 'x64'
+        check-latest: false
+        server-id: 'github'
+        server-username: '${{ github.actor }}'
+        server-password: '${{ secrets.GITHUB_TOKEN }}'
+        overwrite-settings: true
 
     - name: Build with Gradle
       run: ./gradlew build

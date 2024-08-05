@@ -1,6 +1,8 @@
 package com.example.pipelineapplication
 
 import android.os.Bundle
+import android.util.Log
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
@@ -159,7 +161,9 @@ fun LoginScreen() {
         Spacer(modifier = Modifier.height(12.dp))
 
         Button(
-            onClick = { /* Handle click */ },
+            onClick = {
+               // Toast.makeText(this, "This button is clickable", Toast.LENGTH_SHORT).show()
+            },
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(horizontal = 41.dp),

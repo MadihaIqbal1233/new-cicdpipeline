@@ -19,7 +19,7 @@ jobs:
     - name: Set up JDK 11
       uses: actions/setup-java@v3
       with:
-        distribution: 'adopt-openjdk' # Required input
+        distribution: 'temurin' # Required input
         java-version: '11'
         java-package: 'jdk'
         architecture: 'x64'
